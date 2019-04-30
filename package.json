@@ -9,7 +9,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "cheerio": "^1.0.0-rc.3",
     "cpu-stat": "^2.0.1",
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "iconv-lite": "^0.4.24",
+    "request": "^2.88.0"
   }
 }
