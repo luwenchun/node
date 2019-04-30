@@ -13,5 +13,10 @@ function showStatistics() {
 }
 
 setInterval(showStatistics, 1000);
+// 自定义模块
+const conf = require('./conf');
+console.log(conf);
 
+const {rmbToDollar} = require('./currency')(5);
+console.log(rmbToDollar(10));
 
